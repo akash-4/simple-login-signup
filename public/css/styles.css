@@ -1,0 +1,98 @@
+
+body {
+  background-color:white;
+  width: 99%;
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  color: black;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+.row{
+  margin: auto;
+}
+.login{
+  top: 50%;
+  margin: auto;
+}
+.title-image {
+  width: 100%;
+  position: absolute;
+}
+.card{
+  border:0px ;
+  border-radius: 10px;
+  /* box-shadow: 0 10px 10px #808080; */
+  margin-top: 10px;
+}
+p {
+  color: #8f8f8f;
+}
+label{
+  color: black;
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: black;
+  opacity: .8;
+  left: -20px;
+  position: relative;
+  text-align: left;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.login-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+
+  background-color: white;
+  color: #fff;
+  text-align: left;
+
+  margin: auto;
+}
+#title .container-fluid {
+  padding: 12% 15% 7%;
+}
+.title-image {
+  width: 100%;
+  position: absolute;
+}
+.Already{
+  padding-left: 20px;
+}
+@media (max-width: 1028px) {
+.big-heading{
+  text-align: center;
+}
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

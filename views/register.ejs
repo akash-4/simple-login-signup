@@ -1,0 +1,50 @@
+
+<%- include('partials/header') %>
+
+  <section class="colored-section" id="title">
+
+
+  <div class="container-fluid">
+    <div class="row">
+
+
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/login.png" alt="iphone-mockup">
+        </div>
+        <div class="col-lg-5">
+          <h1>Sign Up.</h1>
+      <div class="card">
+        <div class="card-body">
+
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" name="fullname" required=true>
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="number" class="form-control" name="age" required=true>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="username" required=true>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" name="password" required=true>
+            </div>
+            <button type="submit" class="btn btn-dark">Sign Up</button>
+          </form>
+
+        </div>
+      <p class="Already">Already a member? <a href="/login">Login</a></p>
+
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<%- include('partials/footer') %>
